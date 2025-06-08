@@ -1,9 +1,12 @@
 name: CI Pipeline Shivansh
 
 on:
+  push:
+    branches:
+      - ShivanshKumar-8983634
   pull_request:
     branches:
-      - Shivansh-8983634
+      - ShivanshKumar-8983634
 
 jobs:
   build-test-container:
